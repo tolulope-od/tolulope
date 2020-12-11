@@ -1,3 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("/static/fonts/GT-Eesti-Pro-Display-Bold-Trial.otf");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("/static/fonts/GT-Eesti-Pro-Display-Medium-Trial.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+html { background: #faf8ff; color: #101720; }
+
+html.light { background: #faf8ff; color: #101720 }
+
+html.dark { background: #101720; color: #faf8ff; }
+
 html,
 body {
   padding: 0;
