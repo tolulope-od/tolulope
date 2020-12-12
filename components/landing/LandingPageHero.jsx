@@ -103,7 +103,7 @@ const LandingPageHero = () => (
               whileHover={hoverState}
               whileTap={whileTap}
             >
-              <CarrotSuiteLogo width="120px" height="50px"/>
+              <CarrotSuiteLogo className="ml-4 md:ml-0" width="120px" height="50px"/>
             </Anchor>
           </div>
         </Row>
