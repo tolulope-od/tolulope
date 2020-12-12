@@ -91,6 +91,9 @@ const AboutMe = () => {
 
             <Div className="pt-8 md:pt-0 flex flex-col md:flex-row items-center justify-between">
               <Button
+                as={'a'}
+                href={'/Tolulope-Odueke-Resume.pdf'}
+                download={'Tolulope-Odueke-Resume.pdf'}
                 type="button"
                 className="w-40 bg-green-400 text-base font-semibold px-6 py-2 rounded-md flex flex-row items-center justify-between">
                 <p className="text-secondary">Résumé</p>
