@@ -32,7 +32,7 @@ const container = {
     opacity: 1,
     scale: 1,
     transition: {
-      delayChildren: 0.3,
+      delayChildren: 0.2,
       staggerChildren: 0.2,
     },
   },
@@ -61,7 +61,7 @@ const AboutMe = () => {
           className="text-green-400 dark:text-secondary md:flex bg-white dark:bg-transparent rounded-xl p-8 md:p-0 shadow-none light:shadow-lg">
           <Img
             loading={'lazy'}
-            className="w-40 h-40 md:w-72 md:h-auto md:rounded-none object-cover rounded-full mx-auto"
+            className="w-40 h-40 md:w-72 md:h-auto md:rounded-md object-cover rounded-full mx-auto"
             src="/images/tolulope-odueke.jpeg" alt="Image of Tolulope Odueke" width="384"
             height="512"/>
           <Div className="pt-8 md:p-8 text-left md:text-left space-y-4">
@@ -93,7 +93,7 @@ const AboutMe = () => {
               <Button
                 type="button"
                 className="w-40 bg-green-400 text-base font-semibold px-6 py-2 rounded-md flex flex-row items-center justify-between">
-                <p className="text-secondary">Resume</p>
+                <p className="text-secondary">Résumé</p>
                 <DownloadIcon className="text-secondary" style={{ width: '20px' }}/>
               </Button>
               <MotionDiv
@@ -112,29 +112,21 @@ const AboutMe = () => {
                     className="opacity-100 text-green-900 z-50 p-0.5 cursor-pointer hover:text-white"
                   />
                 </A>
-                <A className={AStyles} href="https://github.com/tolulope-od"
+                <A className={AStyles} href="https://www.linkedin.com/in/tolulope-odueke"
                    target="_blank"
                    variants={item}>
                   <LinkedInIcon
                     className="opacity-100 text-green-900 z-50 p-0.5 hover:text-white"/></A>
-                <A className={AStyles} href="https://github.com/tolulope-od"
+                <A className={AStyles} href="https://twitter.com/tolulope_od"
                    target="_blank"
                    variants={item}><TwitterIcon
                   className="opacity-100 text-green-900 z-50 p-0.5 hover:text-white"/></A>
-                <A className={AStyles} href="https://github.com/tolulope-od"
+                <A className={AStyles} href="https://instagram.com/tolulope_od"
                    target="_blank"
                    variants={item}><InstagramIcon
                   className="opacity-100 text-green-900 z-50 p-0.5 hover:text-white"/></A>
               </MotionDiv>
             </Div>
-            {/* <figcaption className="font-medium"> */}
-            {/*  <div className="text-cyan-600"> */}
-            {/*    Sarah Dayan */}
-            {/*  </div> */}
-            {/*  <div className="text-gray-500"> */}
-            {/*    Staff Engineer, Algolia */}
-            {/*  </div> */}
-            {/* </figcaption> */}
           </Div>
         </Figure>
       </SectionBody>

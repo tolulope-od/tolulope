@@ -18,7 +18,7 @@ import useInView from '../../hooks/useInView';
 const MotionDiv = motion.div;
 
 export default function FadeInUp({ children }) {
-  const [ref, inView] = useInView(0);
+  const [ref, inView] = useInView(30);
 
   const variants = {
     hidden: { opacity: 0, y: '40%' },
