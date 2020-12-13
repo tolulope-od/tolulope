@@ -39,7 +39,7 @@ const LandingPageHero = () => (
           users. I enjoy creating highly interactive user interfaces and
           also optimizing web applications to make them highly scalable
           and lightweight leveraging tools such as ReactJS, NextJS, NodeJS
-           and other related technologies
+           and other related technologies.
         </span>
         </LineHolder>
       </SectionBody>
