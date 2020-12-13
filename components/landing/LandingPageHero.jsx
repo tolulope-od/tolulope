@@ -26,7 +26,7 @@ const LandingPageHero = () => (
       <SectionBody className="text-primary dark:text-secondary">
         <LineHolder>
         <span className="line-holder-content">
-          A full-stack web developer. I{' '}
+          A full-stack web developer located in Lagos, Nigeria. I{' '}
           <mark>
             <p className="corrective-text">design</p>
             <LineSVG/>

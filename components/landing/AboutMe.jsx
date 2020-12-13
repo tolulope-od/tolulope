@@ -68,7 +68,7 @@ const AboutMe = () => {
             <AboutMeHeading className="text-center md:text-left">About Me</AboutMeHeading>
             <BlockQuote>
               <ParaGraph className="text-base font-semibold">
-                I am Software engineer with over 3 years of experience in building products, using
+                I am a Software engineer with over 3 years of experience in building products, using
                 industry-standard best practices and methods while leveraging tools that help to
                 guarantee software quality
                 without sacrificing productivity. Throughout my career over the years, I have built
